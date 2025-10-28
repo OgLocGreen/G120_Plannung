@@ -33,9 +33,23 @@ G120_Plannung/
 │   └── desk_config.py              # Desk Configuration mode (🔧)
 ├── data/
 │   └── tische_config.json          # Desk configuration and bookings
+├── g120_raumplan_ws2025.png        # Room layout visualization
+├── g120_raumplan_ws2025.drawio     # Room layout editable source file
 ├── requirements.txt                 # Python dependencies
 └── README.md                        # This file
 ```
+
+## 🏢 G120 Room Layout
+
+The G120 room has 11 desks arranged in the following layout:
+
+![G120 Room Plan WS2025](G120_Raumplan_WS25.png)
+
+Each desk has:
+- A unique desk number (0-10)
+- Computer configuration (GPU, CPU, or None)
+- Screen setup (0-2 screens)
+- Available booking type (Schedule, Full Booking, or Project)
 
 ## 📋 Requirements
 
