@@ -17,7 +17,7 @@ TIMESLOTS = [f"{h:02d}:00-{h+1:02d}:00" for h in range(8, 20)]
 DESK_TYPES = ["schedule", "fullbooking", "projekt"]
 
 # Computer types
-COMPUTER_TYPES = ["GPU", "CPU", "Leer"]
+COMPUTER_TYPES = ["GPU", "CPU", "None"]
 
 # Screen counts
 SCREEN_COUNTS = [0, 1, 2]

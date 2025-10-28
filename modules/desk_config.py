@@ -85,7 +85,7 @@ def show_tischbearbeitung_modus(config: Dict, tische: Dict):
                     value=tisch_data.get("rechner", {}).get("abschaltbar", True)
                 )
             else:
-                rechner_typ = "Leer"
+                rechner_typ = "None"
                 rechner_name = ""
                 abschaltbar = False
         

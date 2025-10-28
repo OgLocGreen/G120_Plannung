@@ -16,7 +16,7 @@
     },
     "1": {
       "name": "Tisch 1",
-      "typ": "stundenplan",
+      "typ": "schedule",
       "rechner": {
         "vorhanden": true,
         "typ": "CPU",
@@ -24,11 +24,60 @@
         "abschaltbar": false,
         "bildschirme": 1
       },
-      "buchungen": {}
+      "buchungen": {
+        "Tuesday_09:00-10:00_20251028234111597313": {
+          "person": "Jens",
+          "tag": "Tuesday",
+          "zeitslot": "09:00-10:00",
+          "rechner_modus": "Screens Only",
+          "notizen": "",
+          "erstellt_am": "2025-10-28 23:41:11"
+        },
+        "Monday_15:00-16:00_20251028234111597349": {
+          "person": "Jens",
+          "tag": "Monday",
+          "zeitslot": "15:00-16:00",
+          "rechner_modus": "Screens Only",
+          "notizen": "",
+          "erstellt_am": "2025-10-28 23:41:11"
+        },
+        "Monday_10:00-11:00_20251028234111597357": {
+          "person": "Jens",
+          "tag": "Monday",
+          "zeitslot": "10:00-11:00",
+          "rechner_modus": "Screens Only",
+          "notizen": "",
+          "erstellt_am": "2025-10-28 23:41:11"
+        },
+        "Monday_16:00-17:00_20251028234123252269": {
+          "person": "Mike",
+          "tag": "Monday",
+          "zeitslot": "16:00-17:00",
+          "rechner_modus": "Screens Only",
+          "notizen": "",
+          "erstellt_am": "2025-10-28 23:41:23"
+        },
+        "Monday_11:00-12:00_20251028234123252299": {
+          "person": "Mike",
+          "tag": "Monday",
+          "zeitslot": "11:00-12:00",
+          "rechner_modus": "Screens Only",
+          "notizen": "",
+          "erstellt_am": "2025-10-28 23:41:23"
+        },
+        "Friday_11:00-12:00_20251028234123252306": {
+          "person": "Mike",
+          "tag": "Friday",
+          "zeitslot": "11:00-12:00",
+          "rechner_modus": "Screens Only",
+          "notizen": "",
+          "erstellt_am": "2025-10-28 23:41:23"
+        }
+      }
     },
     "2": {
       "name": "Tisch 2",
-      "typ": "stundenplan",
+      "typ": "schedule",
       "rechner": {
         "vorhanden": true,
         "typ": "GPU",
@@ -40,10 +89,10 @@
     },
     "3": {
       "name": "Tisch 3",
-      "typ": "vollbuchung",
+      "typ": "fullbooking",
       "rechner": {
         "vorhanden": false,
-        "typ": "Leer",
+        "typ": "None",
         "name": "",
         "abschaltbar": false,
         "bildschirme": 0
@@ -52,7 +101,7 @@
     },
     "4": {
       "name": "Tisch 4",
-      "typ": "stundenplan",
+      "typ": "schedule",
       "rechner": {
         "vorhanden": true,
         "typ": "CPU",
@@ -63,33 +112,33 @@
       "buchungen": {
         "Montag_15:00-16:00_20251028231620248877": {
           "person": "sven",
-          "tag": "Montag",
+          "tag": "Monday",
           "zeitslot": "15:00-16:00",
-          "rechner_modus": "Nur Bildschirme",
+          "rechner_modus": "Screens Only",
           "notizen": "",
           "erstellt_am": "2025-10-28 23:16:20"
         },
         "Montag_10:00-11:00_20251028231620248930": {
           "person": "sven",
-          "tag": "Montag",
+          "tag": "Monday",
           "zeitslot": "10:00-11:00",
-          "rechner_modus": "Nur Bildschirme",
+          "rechner_modus": "Screens Only",
           "notizen": "",
           "erstellt_am": "2025-10-28 23:16:20"
         },
         "Montag_09:00-10:00_20251028231620248942": {
           "person": "sven",
-          "tag": "Montag",
+          "tag": "Monday",
           "zeitslot": "09:00-10:00",
-          "rechner_modus": "Nur Bildschirme",
+          "rechner_modus": "Screens Only",
           "notizen": "",
           "erstellt_am": "2025-10-28 23:16:20"
         },
         "Montag_14:00-15:00_20251028231620248954": {
           "person": "sven",
-          "tag": "Montag",
+          "tag": "Monday",
           "zeitslot": "14:00-15:00",
-          "rechner_modus": "Nur Bildschirme",
+          "rechner_modus": "Screens Only",
           "notizen": "",
           "erstellt_am": "2025-10-28 23:16:20"
         }
@@ -97,7 +146,7 @@
     },
     "5": {
       "name": "Tisch 5",
-      "typ": "stundenplan",
+      "typ": "schedule",
       "rechner": {
         "vorhanden": true,
         "typ": "GPU",
@@ -108,9 +157,9 @@
       "buchungen": {
         "Montag_12:00-13:00_0": {
           "person": "MIke",
-          "tag": "Montag",
+          "tag": "Monday",
           "zeitslot": "12:00-13:00",
-          "rechner_modus": "Rechner aktiv (abschaltbar)",
+          "rechner_modus": "Computer Active (Shutdownable)",
           "notizen": "",
           "erstellt_am": "2025-10-28 22:52:14"
         }
@@ -118,7 +167,7 @@
     },
     "6": {
       "name": "Tisch 6",
-      "typ": "vollbuchung",
+      "typ": "fullbooking",
       "rechner": {
         "vorhanden": true,
         "typ": "CPU",
@@ -130,7 +179,7 @@
     },
     "7": {
       "name": "Tisch 7",
-      "typ": "stundenplan",
+      "typ": "schedule",
       "rechner": {
         "vorhanden": true,
         "typ": "GPU",
@@ -142,7 +191,7 @@
     },
     "8": {
       "name": "Tisch 8",
-      "typ": "stundenplan",
+      "typ": "schedule",
       "rechner": {
         "vorhanden": true,
         "typ": "CPU",
@@ -154,10 +203,10 @@
     },
     "9": {
       "name": "Tisch 9",
-      "typ": "stundenplan",
+      "typ": "schedule",
       "rechner": {
         "vorhanden": false,
-        "typ": "Leer",
+        "typ": "None",
         "name": "",
         "abschaltbar": false,
         "bildschirme": 0
@@ -166,7 +215,7 @@
     },
     "10": {
       "name": "Tisch 10",
-      "typ": "stundenplan",
+      "typ": "schedule",
       "rechner": {
         "vorhanden": true,
         "typ": "GPU",
