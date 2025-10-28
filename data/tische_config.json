@@ -2,7 +2,7 @@
   "tische": {
     "0": {
       "name": "Tisch 0",
-      "typ": "vollbuchung",
+      "typ": "projekt",
       "rechner": {
         "vorhanden": true,
         "typ": "GPU",
@@ -11,7 +11,8 @@
         "bildschirme": 2
       },
       "buchungen": {},
-      "gebucht_von": "Chris"
+      "gebucht_von": "Chris",
+      "projekt_name": ""
     },
     "1": {
       "name": "Tisch 1",

@@ -1,8 +1,8 @@
-# 🪑 G120 Tischplanungs-System
+# 🪑 G120 Desk Planning System
 
-Eine Streamlit-basierte Anwendung zur Verwaltung und Planung von Tischbuchungen im G120-Raum.
+A modular Streamlit-based application for managing and planning desk bookings in the G120 room.
 
-## 🎯 Funktionen
+## 🎯 Features
 
 - **Tischverwaltung**: Verwaltung von 11 Tischen (Tisch 0-10)
 - **Zwei Buchungstypen**:
