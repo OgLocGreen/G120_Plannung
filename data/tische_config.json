@@ -1,0 +1,179 @@
+{
+  "tische": {
+    "0": {
+      "name": "Tisch 0",
+      "typ": "vollbuchung",
+      "rechner": {
+        "vorhanden": true,
+        "typ": "GPU",
+        "name": "WorkStation-01",
+        "abschaltbar": true,
+        "bildschirme": 2
+      },
+      "buchungen": {},
+      "gebucht_von": "Chris"
+    },
+    "1": {
+      "name": "Tisch 1",
+      "typ": "stundenplan",
+      "rechner": {
+        "vorhanden": true,
+        "typ": "CPU",
+        "name": "PC-Labor-01",
+        "abschaltbar": false,
+        "bildschirme": 1
+      },
+      "buchungen": {}
+    },
+    "2": {
+      "name": "Tisch 2",
+      "typ": "stundenplan",
+      "rechner": {
+        "vorhanden": true,
+        "typ": "GPU",
+        "name": "WorkStation-02",
+        "abschaltbar": true,
+        "bildschirme": 2
+      },
+      "buchungen": {}
+    },
+    "3": {
+      "name": "Tisch 3",
+      "typ": "vollbuchung",
+      "rechner": {
+        "vorhanden": false,
+        "typ": "Leer",
+        "name": "",
+        "abschaltbar": false,
+        "bildschirme": 0
+      },
+      "gebucht_von": ""
+    },
+    "4": {
+      "name": "Tisch 4",
+      "typ": "stundenplan",
+      "rechner": {
+        "vorhanden": true,
+        "typ": "CPU",
+        "name": "PC-Standard-01",
+        "abschaltbar": true,
+        "bildschirme": 1
+      },
+      "buchungen": {
+        "Montag_15:00-16:00_20251028231620248877": {
+          "person": "sven",
+          "tag": "Montag",
+          "zeitslot": "15:00-16:00",
+          "rechner_modus": "Nur Bildschirme",
+          "notizen": "",
+          "erstellt_am": "2025-10-28 23:16:20"
+        },
+        "Montag_10:00-11:00_20251028231620248930": {
+          "person": "sven",
+          "tag": "Montag",
+          "zeitslot": "10:00-11:00",
+          "rechner_modus": "Nur Bildschirme",
+          "notizen": "",
+          "erstellt_am": "2025-10-28 23:16:20"
+        },
+        "Montag_09:00-10:00_20251028231620248942": {
+          "person": "sven",
+          "tag": "Montag",
+          "zeitslot": "09:00-10:00",
+          "rechner_modus": "Nur Bildschirme",
+          "notizen": "",
+          "erstellt_am": "2025-10-28 23:16:20"
+        },
+        "Montag_14:00-15:00_20251028231620248954": {
+          "person": "sven",
+          "tag": "Montag",
+          "zeitslot": "14:00-15:00",
+          "rechner_modus": "Nur Bildschirme",
+          "notizen": "",
+          "erstellt_am": "2025-10-28 23:16:20"
+        }
+      }
+    },
+    "5": {
+      "name": "Tisch 5",
+      "typ": "stundenplan",
+      "rechner": {
+        "vorhanden": true,
+        "typ": "GPU",
+        "name": "WorkStation-03",
+        "abschaltbar": false,
+        "bildschirme": 2
+      },
+      "buchungen": {
+        "Montag_12:00-13:00_0": {
+          "person": "MIke",
+          "tag": "Montag",
+          "zeitslot": "12:00-13:00",
+          "rechner_modus": "Rechner aktiv (abschaltbar)",
+          "notizen": "",
+          "erstellt_am": "2025-10-28 22:52:14"
+        }
+      }
+    },
+    "6": {
+      "name": "Tisch 6",
+      "typ": "vollbuchung",
+      "rechner": {
+        "vorhanden": true,
+        "typ": "CPU",
+        "name": "PC-Labor-02",
+        "abschaltbar": true,
+        "bildschirme": 1
+      },
+      "gebucht_von": ""
+    },
+    "7": {
+      "name": "Tisch 7",
+      "typ": "stundenplan",
+      "rechner": {
+        "vorhanden": true,
+        "typ": "GPU",
+        "name": "WorkStation-04",
+        "abschaltbar": true,
+        "bildschirme": 2
+      },
+      "buchungen": {}
+    },
+    "8": {
+      "name": "Tisch 8",
+      "typ": "stundenplan",
+      "rechner": {
+        "vorhanden": true,
+        "typ": "CPU",
+        "name": "PC-Labor-03",
+        "abschaltbar": false,
+        "bildschirme": 1
+      },
+      "buchungen": {}
+    },
+    "9": {
+      "name": "Tisch 9",
+      "typ": "stundenplan",
+      "rechner": {
+        "vorhanden": false,
+        "typ": "Leer",
+        "name": "",
+        "abschaltbar": false,
+        "bildschirme": 0
+      },
+      "buchungen": {}
+    },
+    "10": {
+      "name": "Tisch 10",
+      "typ": "stundenplan",
+      "rechner": {
+        "vorhanden": true,
+        "typ": "GPU",
+        "name": "WorkStation-05",
+        "abschaltbar": true,
+        "bildschirme": 2
+      },
+      "buchungen": {}
+    }
+  }
+}
